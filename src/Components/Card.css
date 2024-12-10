@@ -1,0 +1,115 @@
+/* Card container */
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 16px;
+    background-color: #fff;
+  }
+  
+  /* Image inside the card */
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Content section of the card */
+  .card-content {
+    padding: 16px;
+  }
+  
+  /* Title inside the card */
+  .card-title {
+    font-size: 1.25rem;
+    margin: 0 0 8px;
+    color: #333;
+  }
+  
+  /* Description inside the card */
+  .card-description {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  /* Price or additional info */
+  .card-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 12px;
+  }
+  
+  /* Hover effects */
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Button styling */
+  .card-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .card-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Filter container styling */
+.filter-container {
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+  }
+  
+  /* Individual filter items */
+  .filter-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-item label {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .filter-item select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Apply filters button */
+  .filter-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .filter-btn:hover {
+    background-color: #0056b3;
+  }
+  

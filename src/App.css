@@ -1,0 +1,43 @@
+/* Page container to center and align all content */
+.page-container {
+  max-width: 1200px; /* Adjust based on your preference */
+  margin: 0 auto; /* Centers the content */
+  padding: 16px; /* Adds space around the content */
+  box-sizing: border-box;
+}
+
+/* Card container styling for responsive layout */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-around; /* Evenly distributes cards */
+  align-items: flex-start;
+}
+
+/* Filter container styling (already present, just for alignment) */
+.filter-container {
+  max-width: 100%;
+  margin: 0 auto 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Stacks cards vertically */
+    align-items: center;
+  }
+
+  .filter-container {
+    flex-direction: column; /* Stacks filter fields */
+    align-items: stretch;
+  }
+}
